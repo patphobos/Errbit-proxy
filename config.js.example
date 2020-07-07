@@ -1,7 +1,7 @@
 {
   proto : "https",
   requirevalidcert : false //put here false if you use self signed certs. Ignored when proto is http
-  host    :"YOUR ERRBIT HOST, OR api.airbrake.io FOR AIRBRAKE",
+  host : "YOUR ERRBIT HOST, OR api.airbrake.io FOR AIRBRAKE",
   port : 80,
   apiversion : 2, //Use API version 2 if you want to use Errbit
   daemonport : 4135,
